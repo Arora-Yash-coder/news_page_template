@@ -8,7 +8,10 @@ class MyNewsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text("Creating Layout"),
+        title: const Text(
+          "Page Layout",
+          style: TextStyle(color: Colors.black),
+        ),
         elevation: 0.0,
         backgroundColor: Colors.white,
         leading: IconButton(
